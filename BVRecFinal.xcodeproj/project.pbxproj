@@ -17,8 +17,8 @@
 		DB968BA5219F41E700D4B220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB968BA4219F41E700D4B220 /* Main.storyboard */; };
 		DB968BA7219F42BB00D4B220 /* MapScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB968BA6219F42BB00D4B220 /* MapScreenVC.swift */; };
 		DB968BA9219F432800D4B220 /* PullUpMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB968BA8219F432800D4B220 /* PullUpMenuVC.swift */; };
-		DB968BAB219F436F00D4B220 /* FieldListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB968BAA219F436F00D4B220 /* FieldListVC.swift */; };
 		DB968BAD219F45AD00D4B220 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB968BAC219F45AD00D4B220 /* CGRectExtension.swift */; };
+		DBEA201421BEF02700BAE3DF /* FieldListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA201321BEF02700BAE3DF /* FieldListButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		DB968BA4219F41E700D4B220 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DB968BA6219F42BB00D4B220 /* MapScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenVC.swift; sourceTree = "<group>"; };
 		DB968BA8219F432800D4B220 /* PullUpMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpMenuVC.swift; sourceTree = "<group>"; };
-		DB968BAA219F436F00D4B220 /* FieldListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldListVC.swift; sourceTree = "<group>"; };
 		DB968BAC219F45AD00D4B220 /* CGRectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		DBEA201321BEF02700BAE3DF /* FieldListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldListButton.swift; sourceTree = "<group>"; };
 		E8F9207E38A446719A52B2CB /* Pods-BVRecFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVRecFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-BVRecFinal/Pods-BVRecFinal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +94,6 @@
 				DB968B92219F1FDF00D4B220 /* AppDelegate.swift */,
 				DB968BA6219F42BB00D4B220 /* MapScreenVC.swift */,
 				DB968BA8219F432800D4B220 /* PullUpMenuVC.swift */,
-				DB968BAA219F436F00D4B220 /* FieldListVC.swift */,
 				DB968BA4219F41E700D4B220 /* Main.storyboard */,
 				DB33476721A49FD800AD1C41 /* PullUpMenu.xib */,
 				DB968B9E219F1FDF00D4B220 /* Info.plist */,
@@ -102,6 +101,7 @@
 				DB33476921A4A20800AD1C41 /* PullUpMenu.swift */,
 				DB33476521A453B200AD1C41 /* PullUpButton.swift */,
 				DB1F0DAD21AED65800255C75 /* ControlCenter.swift */,
+				DBEA201321BEF02700BAE3DF /* FieldListButton.swift */,
 			);
 			path = BVRecFinal;
 			sourceTree = "<group>";
@@ -206,8 +206,8 @@
 				DB1F0DAE21AED65800255C75 /* ControlCenter.swift in Sources */,
 				DB968BAD219F45AD00D4B220 /* CGRectExtension.swift in Sources */,
 				DB968B93219F1FDF00D4B220 /* AppDelegate.swift in Sources */,
-				DB968BAB219F436F00D4B220 /* FieldListVC.swift in Sources */,
 				DB968BA9219F432800D4B220 /* PullUpMenuVC.swift in Sources */,
+				DBEA201421BEF02700BAE3DF /* FieldListButton.swift in Sources */,
 				DB33476A21A4A20800AD1C41 /* PullUpMenu.swift in Sources */,
 				DB968BA7219F42BB00D4B220 /* MapScreenVC.swift in Sources */,
 				DB33476621A453B200AD1C41 /* PullUpButton.swift in Sources */,
@@ -341,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2939NE34N;
 				INFOPLIST_FILE = BVRecFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2939NE34N;
 				INFOPLIST_FILE = BVRecFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
